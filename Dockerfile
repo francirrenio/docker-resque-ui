@@ -14,6 +14,7 @@ RUN chmod 775 /entrypoint.sh
 
 ENV RESQUE_WEB_HOST 127.0.0.1
 ENV RESQUE_WEB_PORT 6379
+ENV RESQUE_WEB_DB 0
 
 ENTRYPOINT ["/entrypoint.sh"]
 
